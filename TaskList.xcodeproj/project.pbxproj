@@ -10,7 +10,6 @@
 		E711554125D2BE6A003ED662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E711554025D2BE6A003ED662 /* AppDelegate.swift */; };
 		E711554325D2BE6A003ED662 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E711554225D2BE6A003ED662 /* SceneDelegate.swift */; };
 		E711554825D2BE6A003ED662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E711554625D2BE6A003ED662 /* Main.storyboard */; };
-		E711554B25D2BE6A003ED662 /* TaskList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E711554925D2BE6A003ED662 /* TaskList.xcdatamodeld */; };
 		E711554D25D2BE6E003ED662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E711554C25D2BE6E003ED662 /* Assets.xcassets */; };
 		E711555025D2BE6E003ED662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E711554E25D2BE6E003ED662 /* LaunchScreen.storyboard */; };
 		E711555C25D2D47E003ED662 /* TaskListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E711555B25D2D47E003ED662 /* TaskListTableViewController.swift */; };
@@ -27,7 +26,6 @@
 		E711554025D2BE6A003ED662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E711554225D2BE6A003ED662 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E711554725D2BE6A003ED662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E711554A25D2BE6A003ED662 /* TaskList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskList.xcdatamodel; sourceTree = "<group>"; };
 		E711554C25D2BE6E003ED662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E711554F25D2BE6E003ED662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E711555125D2BE6E003ED662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,7 +75,6 @@
 				E711555825D2D244003ED662 /* Services */,
 				E711555725D2D143003ED662 /* SupportingFiles */,
 				E711554C25D2BE6E003ED662 /* Assets.xcassets */,
-				E711554925D2BE6A003ED662 /* TaskList.xcdatamodeld */,
 			);
 			path = TaskList;
 			sourceTree = "<group>";
@@ -217,7 +214,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E779FC1625EF819B004F148C /* Task.swift in Sources */,
-				E711554B25D2BE6A003ED662 /* TaskList.xcdatamodeld in Sources */,
 				E711554125D2BE6A003ED662 /* AppDelegate.swift in Sources */,
 				E711556025D2D4EC003ED662 /* TaskTableViewCell.swift in Sources */,
 				E711556525D2E0CC003ED662 /* Extension + NSObject.swift in Sources */,
@@ -422,19 +418,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		E711554925D2BE6A003ED662 /* TaskList.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				E711554A25D2BE6A003ED662 /* TaskList.xcdatamodel */,
-			);
-			currentVersion = E711554A25D2BE6A003ED662 /* TaskList.xcdatamodel */;
-			path = TaskList.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = E711553525D2BE6A003ED662 /* Project object */;
 }
