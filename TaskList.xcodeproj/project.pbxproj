@@ -9,23 +9,35 @@
 /* Begin PBXBuildFile section */
 		E711554125D2BE6A003ED662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E711554025D2BE6A003ED662 /* AppDelegate.swift */; };
 		E711554325D2BE6A003ED662 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E711554225D2BE6A003ED662 /* SceneDelegate.swift */; };
-		E711554525D2BE6A003ED662 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E711554425D2BE6A003ED662 /* ViewController.swift */; };
 		E711554825D2BE6A003ED662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E711554625D2BE6A003ED662 /* Main.storyboard */; };
 		E711554B25D2BE6A003ED662 /* TaskList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E711554925D2BE6A003ED662 /* TaskList.xcdatamodeld */; };
 		E711554D25D2BE6E003ED662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E711554C25D2BE6E003ED662 /* Assets.xcassets */; };
 		E711555025D2BE6E003ED662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E711554E25D2BE6E003ED662 /* LaunchScreen.storyboard */; };
+		E711555C25D2D47E003ED662 /* TaskListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E711555B25D2D47E003ED662 /* TaskListTableViewController.swift */; };
+		E711556025D2D4EC003ED662 /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E711555E25D2D4EC003ED662 /* TaskTableViewCell.swift */; };
+		E711556125D2D4EC003ED662 /* TaskTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E711555F25D2D4EC003ED662 /* TaskTableViewCell.xib */; };
+		E711556525D2E0CC003ED662 /* Extension + NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E711556425D2E0CC003ED662 /* Extension + NSObject.swift */; };
+		E711556725D2E3F4003ED662 /* Extension + UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E711556625D2E3F4003ED662 /* Extension + UITableView.swift */; };
+		E779FC1625EF819B004F148C /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E779FC1525EF819B004F148C /* Task.swift */; };
+		E779FC1825EF8601004F148C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E779FC1725EF8601004F148C /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E711553D25D2BE6A003ED662 /* TaskList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E711554025D2BE6A003ED662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E711554225D2BE6A003ED662 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E711554425D2BE6A003ED662 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E711554725D2BE6A003ED662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E711554A25D2BE6A003ED662 /* TaskList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskList.xcdatamodel; sourceTree = "<group>"; };
 		E711554C25D2BE6E003ED662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E711554F25D2BE6E003ED662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E711555125D2BE6E003ED662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E711555B25D2D47E003ED662 /* TaskListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListTableViewController.swift; sourceTree = "<group>"; };
+		E711555E25D2D4EC003ED662 /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		E711555F25D2D4EC003ED662 /* TaskTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskTableViewCell.xib; sourceTree = "<group>"; };
+		E711556425D2E0CC003ED662 /* Extension + NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + NSObject.swift"; sourceTree = "<group>"; };
+		E711556625D2E3F4003ED662 /* Extension + UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UITableView.swift"; sourceTree = "<group>"; };
+		E779FC1525EF819B004F148C /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		E779FC1725EF8601004F148C /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +70,78 @@
 		E711553F25D2BE6A003ED662 /* TaskList */ = {
 			isa = PBXGroup;
 			children = (
-				E711554025D2BE6A003ED662 /* AppDelegate.swift */,
-				E711554225D2BE6A003ED662 /* SceneDelegate.swift */,
-				E711554425D2BE6A003ED662 /* ViewController.swift */,
-				E711554625D2BE6A003ED662 /* Main.storyboard */,
+				E779FC1425EF817D004F148C /* Models */,
+				E711556325D2DE8F003ED662 /* Extensions */,
+				E711555D25D2D4B2003ED662 /* Cells */,
+				E711555925D2D2AC003ED662 /* Screens */,
+				E711555825D2D244003ED662 /* Services */,
+				E711555725D2D143003ED662 /* SupportingFiles */,
 				E711554C25D2BE6E003ED662 /* Assets.xcassets */,
-				E711554E25D2BE6E003ED662 /* LaunchScreen.storyboard */,
-				E711555125D2BE6E003ED662 /* Info.plist */,
 				E711554925D2BE6A003ED662 /* TaskList.xcdatamodeld */,
 			);
 			path = TaskList;
+			sourceTree = "<group>";
+		};
+		E711555725D2D143003ED662 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E711554025D2BE6A003ED662 /* AppDelegate.swift */,
+				E711554225D2BE6A003ED662 /* SceneDelegate.swift */,
+				E711555125D2BE6E003ED662 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		E711555825D2D244003ED662 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E779FC1725EF8601004F148C /* DataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E711555925D2D2AC003ED662 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E711554E25D2BE6E003ED662 /* LaunchScreen.storyboard */,
+				E711555A25D2D37B003ED662 /* Main */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E711555A25D2D37B003ED662 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E711554625D2BE6A003ED662 /* Main.storyboard */,
+				E711555B25D2D47E003ED662 /* TaskListTableViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E711555D25D2D4B2003ED662 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E711555E25D2D4EC003ED662 /* TaskTableViewCell.swift */,
+				E711555F25D2D4EC003ED662 /* TaskTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E711556325D2DE8F003ED662 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E711556425D2E0CC003ED662 /* Extension + NSObject.swift */,
+				E711556625D2E3F4003ED662 /* Extension + UITableView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E779FC1425EF817D004F148C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E779FC1525EF819B004F148C /* Task.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E711556125D2D4EC003ED662 /* TaskTableViewCell.xib in Resources */,
 				E711555025D2BE6E003ED662 /* LaunchScreen.storyboard in Resources */,
 				E711554D25D2BE6E003ED662 /* Assets.xcassets in Resources */,
 				E711554825D2BE6A003ED662 /* Main.storyboard in Resources */,
@@ -141,10 +216,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E779FC1625EF819B004F148C /* Task.swift in Sources */,
 				E711554B25D2BE6A003ED662 /* TaskList.xcdatamodeld in Sources */,
-				E711554525D2BE6A003ED662 /* ViewController.swift in Sources */,
 				E711554125D2BE6A003ED662 /* AppDelegate.swift in Sources */,
+				E711556025D2D4EC003ED662 /* TaskTableViewCell.swift in Sources */,
+				E711556525D2E0CC003ED662 /* Extension + NSObject.swift in Sources */,
+				E711555C25D2D47E003ED662 /* TaskListTableViewController.swift in Sources */,
 				E711554325D2BE6A003ED662 /* SceneDelegate.swift in Sources */,
+				E779FC1825EF8601004F148C /* DataManager.swift in Sources */,
+				E711556725D2E3F4003ED662 /* Extension + UITableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +370,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AGH5RSM234;
-				INFOPLIST_FILE = TaskList/Info.plist;
+				INFOPLIST_FILE = TaskList/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +388,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AGH5RSM234;
-				INFOPLIST_FILE = TaskList/Info.plist;
+				INFOPLIST_FILE = TaskList/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
